@@ -19,10 +19,10 @@ ING
 
 [ingsupport@163.com](mailto:ingsupport@163.com)
 
-## 4. 部署后应得到
+## 4. 当前公开页面
 
-- `https://你的公网域名/privacy.html`
-- `https://你的公网域名/support.html`
+- `privacy.html`
+- `support.html`
 
 ## 5. 可选部署方式
 
@@ -39,7 +39,7 @@ ING
 - 桌面浏览器打开 `support.html`
 - 确认邮箱显示为 [ingsupport@163.com](mailto:ingsupport@163.com)
 - 确认 App 名称显示为 ING
-- 确认没有 Supabase URL / key / token
+- 确认没有真实后端服务 URL / key / token
 
 ## 7. App Store Connect 填写
 
@@ -50,5 +50,5 @@ ING
 
 - 不要上传 Swift / Xcode 工程文件
 - 不要上传 secret / key / token
-- 不要把 Supabase URL 写进网页
+- 不要把真实后端服务 URL 写进网页
 - 不要把私人手机号写进网页

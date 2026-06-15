@@ -1,21 +1,20 @@
-# ING App Store Web Draft
+# ING App Store Web Pages
 
-本目录包含 App Store Connect 所需的静态网页草案：
+本目录包含 App Store Connect 所需的静态网页：
 
 - `index.html`：入口页
-- `privacy.html`：Privacy Policy URL 对应页面草案
-- `support.html`：Support URL 对应页面草案
+- `privacy.html`：Privacy Policy URL 对应页面
+- `support.html`：Support URL 对应页面
 
 ## 当前状态
 
-- 这些页面只是 App Store 所需网页草案。
-- 当前尚未发布到公网。
+- 这些页面用于公开展示 ING 的隐私政策与支持信息。
 - 本轮不修改 Swift，不修改 Xcode project，不做 archive，不上传 App Store。
 - App 名称统一为 `ING`，不添加其他名称后缀。
 
-## 后续部署建议
+## 后续重新部署建议
 
-后续可部署到以下任一静态网页服务：
+如需重新发布，可部署到以下任一静态网页服务：
 
 - GitHub Pages
 - Cloudflare Pages
@@ -38,7 +37,7 @@
 
 ## 安全边界
 
-- 不要把 Supabase URL / key / token 写进网页。
+- 不要把真实后端服务 URL / key / token 写进网页。
 - 不要把真实 secret、密码、服务端 key 或后台配置写进网页。
 - 不要把个人隐私信息写进网页。
 - 不要把真实个人电话写进网页。
